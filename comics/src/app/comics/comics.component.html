@@ -1,0 +1,7 @@
+ <ul *ngFor="let comic of listComics()">
+  <li>
+    {{comic.title}}
+  </li> 
+  {{comic.thumbnail.path}}{{"."+comic.thumbnail.extension}}
+ </ul>
+ 
